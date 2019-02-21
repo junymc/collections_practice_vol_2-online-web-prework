@@ -61,6 +61,8 @@ def organize_schools(schools)
     city = location_hash[:location]
     if organized_schools[city]
       organized_schools[city] << key
+    else
+      
   binding.pry
     # location_hash.map do |k, location|
 
