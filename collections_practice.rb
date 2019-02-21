@@ -60,10 +60,10 @@ def organize_schools(schools)
   schools.each do |key, location_hash|
     city = location_hash[:location]
     if organized_schools[city]
-      organized_schools[city] << key
+       organized_schools[city] << key
     else
-    organized_schools[city] = []
-    organized_schools[city] << key
+      organized_schools[city] = []
+      organized_schools[city] << key
     end
   end
  organized_schools
