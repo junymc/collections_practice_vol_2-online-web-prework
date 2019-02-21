@@ -1,3 +1,4 @@
+require 'pry'
 def begins_with_r(array)
   array.all? {|str| str.start_with?("r")}
 end
@@ -58,7 +59,7 @@ def organize_schools(schools)
   schools.each do |key, location_hash|
   binding.pry
     # location_hash.map do |k, location|
-      
+
 
   # end
  end
