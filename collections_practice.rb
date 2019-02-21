@@ -64,10 +64,7 @@ def organize_schools(schools)
     else
     organized_schools[city] = []
     organized_schools[city] << key
-    # location_hash.map do |k, location|
-
-
+    end
   end
- end
  organized_schools
 end# your code goes here
