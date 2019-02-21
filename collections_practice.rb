@@ -62,7 +62,7 @@ def organize_schools(schools)
     if organized_schools[city]
       organized_schools[city] << key
     else
-
+    organized_schools[city] = []
   binding.pry
     # location_hash.map do |k, location|
 
