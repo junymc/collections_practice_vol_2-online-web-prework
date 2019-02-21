@@ -56,6 +56,7 @@ def find_cool(array)
 end
 
 def organize_schools(schools)
+  organized_schools = {}
   schools.each do |key, location_hash|
   binding.pry
     # location_hash.map do |k, location|
