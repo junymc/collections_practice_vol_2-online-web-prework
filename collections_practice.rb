@@ -57,6 +57,7 @@ end
 def organize_schools(schools)
   schools.each do |key, location_hash|
     location_hash.map do |k, location|
+      
 
   end
  end
