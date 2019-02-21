@@ -58,6 +58,7 @@ end
 def organize_schools(schools)
   organized_schools = {}
   schools.each do |key, location_hash|
+    organized_schools << location_hash[:location]
   binding.pry
     # location_hash.map do |k, location|
 
